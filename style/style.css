@@ -1,5 +1,5 @@
 body {
-	background: #e1e1e1;
+	background: #ececec;
 	/*background: #674172;*/
 	/*background-image: url('../img/backdrop');*/
 }
@@ -133,6 +133,27 @@ body {
 .image_container {
 	position: absolute;
 	height: 100%;
-	width: 80%;
-	background: #FFF;
+	width: 75%;
+	/*background: #ecf0f1;*/
+	background: white;
+	border-right: 1px solid lightgrey;
+}
+.comment_container {
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	left: 75%;
+	background: white;
+	/*background: #ecf0f1;*/
+}
+#post_cover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40%;
+	width: 100%;
+	background-image: url('../img/card_backdrop.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-clip: 10px;
 }
