@@ -1,0 +1,138 @@
+body {
+	background: #e1e1e1;
+	/*background: #674172;*/
+	/*background-image: url('../img/backdrop');*/
+}
+.overlayed_message {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+.overlayed_message h3 {
+	font-family: Oxygen;
+	font-weight: 100;
+	text-align: center;
+	font-size: 4.5em;
+}
+.containers_main {
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	position: absolute;
+	background: white;
+	width: 90%;
+	left: 5%;
+	transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+}
+#post_expanded {
+	top: 5%;
+	height: 45%;
+}
+#post_container {
+	overflow: scroll;
+	height: 40%;
+	top: 55%;
+	/*background-image: url('../img/backdrop.png');*/
+}
+#hidden_connector {
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	position: absolute;
+	bottom: 17.5%;
+	height: 17.5%;
+	width: 15%;
+	left: 9.5%;
+	background: white;
+}
+.post {
+	position: absolute;
+	/*background: #DDE3E7;*/
+	height: 50%;
+	top: 25%;
+	width: 14%;
+}
+.post:first-child {
+	left: 14%;
+}
+.post:nth-child(2) {
+	left: 42%;
+}
+.post:last-child {
+	left: 70%;
+}
+.post2 {
+	position: absolute;
+	/*background: #DDE3E7;*/
+	height: 50%;
+	top: 25%;
+	width: 14%;
+}
+.post2:first-child {
+	left: 14%;
+}
+.post2:nth-child(2) {
+	left: 42%;
+}
+.post2:last-child {
+	left: 70%;
+}
+.posts {
+	width: 80%;
+	margin-left: 10%;
+}
+.post_preview {
+	position: absolute;
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	height: 70%;
+	width: 70%;
+	transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+}
+.post:hover .post_preview {
+	box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.post_preview:active {
+	box-shadow: none;
+}
+.preview1 {
+	top: 12.5%;
+	left: 12.5%;
+}
+.preview2 {
+	top: 17.5%;
+	left: 17.5%;
+}
+.preview3 {
+	top: 22.5%;
+	left: 22.5%;
+}
+.plus_preview {
+	display: none;
+	position: absolute;
+	font-family: Oxygen;
+	background: rgba(0,0,0,0.7);
+	top: 22.5%;
+	left: 22.5%;
+	height: 70%;
+	width: 70%;
+}
+.plus_preview h3 {
+	font-weight: 100;
+	color: aqua;
+	font-size: 125%;
+	text-align: center;
+	vertical-align: middle;	
+}
+.image_container {
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	background: #FFF;
+}
