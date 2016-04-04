@@ -181,3 +181,14 @@ body {
 	background-repeat: no-repeat;
 	background-image: url('../img/profile.png');
 }
+.comment_stream {
+	position: absolute;
+	top: 47.5%;
+	width: 100%;
+	background: #ececec;
+}
+.comment {
+	margin-top: 5px;
+	height: 100px;
+	width: 100%;
+}
