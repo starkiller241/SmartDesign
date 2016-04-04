@@ -1,0 +1,3 @@
+About this folder:
+
+	This folder stores time to time screenshots of the latest look of the project’s layout and features. It will be updated at the end of every workday.
