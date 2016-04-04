@@ -1,13 +1,7 @@
 $(document).ready(function() {
-	//fix post position with javascript
-	$('.overlayed_message').delay(800).slideToggle();
 
-	// $('.post').css({
-	// 	'height': custom_height,
-	// 	'width': custom_width,
-	// 	'top': height * 0.25
-	// });
 
+	// $('.overlayed_message').delay(800).slideToggle();
 
 	$(this).resize(function() {
 		var height = $('#post_container').height();
