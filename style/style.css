@@ -147,12 +147,37 @@ body {
 }
 #post_cover {
 	position: absolute;
+	cursor: default;
+	user-select: none;
+	-webkit-user-select: none;
+	padding-top: 10%;
+	height: 30%;
 	left: 0;
 	top: 0;
-	height: 40%;
 	width: 100%;
 	background-image: url('../img/card_backdrop.jpeg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-clip: 10px;
+}
+.username_cover {
+	font-family: Oxygen;
+	color: white;
+	font-size: 1.5em;
+	font-weight: 200;
+	padding-left: 5%;
+}
+.profile_post {
+	height: 35%;
+	width: 15%;
+	background: #00BCD4;
+	right: 5%;
+	top: 82.5%;
+	border-radius: 100%;
+	background-size: 70% 70%;
+	background-position: center;
+	position: absolute;
+	float: right;
+	background-repeat: no-repeat;
+	background-image: url('../img/profile.png');
 }
