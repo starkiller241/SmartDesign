@@ -144,6 +144,7 @@ body {
 	left: 75%;
 	background: white;
 	/*background: #ecf0f1;*/
+	overflow-y: scroll;
 }
 #post_cover {
 	position: absolute;
@@ -185,10 +186,29 @@ body {
 	position: absolute;
 	top: 47.5%;
 	width: 100%;
-	background: #ececec;
 }
 .comment {
 	margin-top: 5px;
 	height: 100px;
 	width: 100%;
+	background: #ececec;
+	overflow: hidden;
+}
+.comment:hover {
+	background: grey;
+}
+.profile_comment {
+	background-image: url('../img/profile.png');
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 40px;
+	width: 40px;
+	background-size: 40px 40px;
+	background-position: center;
+}
+.comment_text {
+	position: absolute;
+	font-family: Titillium Web;
+	left: 70px;
 }
