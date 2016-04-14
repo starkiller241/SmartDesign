@@ -1,5 +1,5 @@
 # SmartDesign
-This is a project I'm currently working on with fellow developer Kiran Kunigiri. It consists of an iOS and Web platform both of which are currently i
+This is a project I'm currently working on with fellow developer Kiran Kunigiri. It consists of an iOS and Web platform which are both currently in
 development. Android is currently untouched. 
 
 SmartDesign, which is currently the project's placeholder name, saves designers
